@@ -1,0 +1,34 @@
+SmartOnBuild - Solution Design Report
+1. Overview
+SmartOnBuild is an innovative open-source project that aims to revolutionize the software creation process by leveraging the power of OpenAI's ChatGPT. The project empowers users to effortlessly describe their desired final product, be it a web application, mobile app, data science project, or more, through an interactive and user-friendly web application.
+
+The heart of SmartOnBuild lies in the seamless collaboration between users and AI-powered chatbots, acting as a Business Analyst (BA) and Solution Architect (SA), respectively. This collaborative approach ensures accurate understanding of project requirements and generates a robust plan for implementation, ultimately leading to the automatic generation of code and the delivery of a fully functional end product.
+
+2. Architecture
+SmartOnBuild's architecture is designed to provide a seamless experience for users while maintaining data privacy and security. The key components of the architecture include:
+
+Web Application Frontend: This component serves as the user interface, allowing users to interact with the chatbot and describe their project requirements.
+
+OpenAI ChatGPT API: The heart of the project, ChatGPT API, acts as the interactive chatbot. It switches roles between Business Analyst and Solution Architect, providing a natural language-based understanding of the user's project requirements.
+
+GitHub Integration: The web application integrates with GitHub to create new repositories on the project's main account. Users can easily fork the repository and access their generated code.
+
+3. User Interaction
+The user interaction in SmartOnBuild is designed to be intuitive and straightforward. Users begin by accessing the web application, where they provide a brief description of their desired project. No GitHub credentials are required; instead, the application creates a new repository on the project's main account.
+
+Upon submitting the description, ChatGPT takes the role of a friendly Business Analyst, engaging the user in a conversation to comprehend the project's scope and the desired final product. This understanding session lays the foundation for the subsequent solution design phase.
+
+4. Solution Design
+After the understanding session, ChatGPT seamlessly transitions into the role of a Solution Architect. It initiates a chatbot-to-chatbot conversation, leveraging the input from the user and the understanding session output. The Solution Architect bot generates accurate and relevant questions, resulting in a comprehensive plan for the project's implementation.
+
+5. Automated Code Generation
+With a robust solution design in place, the web application takes charge of the automated code generation process. It orchestrates the creation of scripts and folder structures for the user's repository on GitHub. The generated code aligns precisely with the project requirements, saving valuable development time and ensuring a solid foundation for further customization.
+
+6. Continuous Integration and Deployment
+SmartOnBuild adopts a Continuous Integration/Continuous Deployment (CI/CD) approach to ensure reliable and high-quality software delivery. The CI/CD pipeline supports a wide range of automated testing types suitable for different application types, such as data science projects, web applications, and more. This comprehensive testing ensures a robust and dependable end product.
+
+7. Data Privacy and Security
+SmartOnBuild prioritizes data privacy and security. User interactions, chatbot conversation history, and project details are securely stored within the same cloud provider's infrastructure. Best practices from major cloud providers are followed to protect user data and ensure confidentiality.
+
+8. Future Enhancements
+While version 1 of SmartOnBuild does not incorporate user feedback during the delivery phase, future versions are planned to introduce feedback loops. This will allow the chatbot to continuously improve its performance and code generation based on user input.
